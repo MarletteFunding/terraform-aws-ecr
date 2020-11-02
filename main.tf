@@ -106,7 +106,6 @@ data "aws_iam_policy_document" "resource_readonly_access" {
     }
 
     actions = [
-      "ecr:GetAuthorizationToken",
       "ecr:BatchCheckLayerAvailability",
       "ecr:GetDownloadUrlForLayer",
       "ecr:GetRepositoryPolicy",
